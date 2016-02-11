@@ -34,7 +34,7 @@ For a couple of sample command definitions copy:
   
 to your Nagios plugin configuration directory or add this command definitions to your commands.cfg file, otherwise add next lines to nagios.cfg file:
 
-# Definitions for monitoring Alfresco Enterprise
+Definitions for monitoring Alfresco Enterprise
 cfg_file=/usr/local/icinga/etc/objects/alfresco-commands.cfg
 cfg_file=/usr/local/icinga/etc/objects/alfresco-server.cfg
 
