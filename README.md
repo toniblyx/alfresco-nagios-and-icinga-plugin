@@ -25,12 +25,12 @@ For quick test:
 TOMCAT_PATH/webapps/alfresco/WEB-INF/classes/alfresco/alfresco-jmxrmi.access
 
 monitorRole   readonly
-#controlRole   readwrite
+ #controlRole   readwrite
 
 TOMCAT_PATH/webapps/alfresco/WEB-INF/classes/alfresco/alfresco-jmxrmi.password
 
 monitorRole  newpassword
-#controlRole  change_asap
+ # controlRole  change_asap
 
 INSTALLATION
 
