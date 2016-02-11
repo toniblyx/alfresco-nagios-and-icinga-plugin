@@ -1,0 +1,18 @@
+List of default ports used by Alfresco Enterprise:
+
+Port to monitor externally:
+8080/TCP Application Server
+7070/TCP VTI Share Point Server (jetty)
+1121/TCP FTP Server
+139/TCP CIFS Server (NetBIOS - session)
+138/UDP CIFS Server (Datagram)
+137/UDP CIFS Server (Port name) 
+445/TCP CIFS Server (SMB)
+50500/TCP RMI (access to JMX)
+
+If enabled:
+143/TCP IMAP Server
+25/TCP SMTP Server (incoming mail)
+
+Ports listen in localhost:
+8100/TCP OpenOffice
