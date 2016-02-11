@@ -1,8 +1,8 @@
+#NAGIOS PLUGIN FOR ALFRESCO
+
 Nagios or Icinga Plugin for Alfresco - Toni de la Fuente (blyx.com)
 
 Original and based on Nagios JMX Plugin of Felix Roethenbacher (Copyright 2009)
-
-*NAGIOS PLUGIN FOR ALFRESCO*
 
 31/Jan/2010
 Version 1.0 - first release (Suport Alfresco Enterprise 3.2 and above)
@@ -19,20 +19,9 @@ Version 1.3 - updated check_jmx (renamed as check_alfresco), now when critical i
 3/Sep/2013
 Version 1.3.1 - fixed the check_alfresco script.
 
-Change your JMX credentials in Alfresco: (for persistent change see here http://docs.alfresco.com/5.0/tasks/jmx-access.html)
-
-For quick test:
-TOMCAT_PATH/webapps/alfresco/WEB-INF/classes/alfresco/alfresco-jmxrmi.access
-
-monitorRole   readonly
- #controlRole   readwrite
-
-TOMCAT_PATH/webapps/alfresco/WEB-INF/classes/alfresco/alfresco-jmxrmi.password
-
-monitorRole  newpassword
- # controlRole  change_asap
-
 INSTALLATION
+
+Change your JMX credentials in Alfresco: (for persistent change see here http://docs.alfresco.com/5.0/tasks/jmx-access.html)
 
 Copy next two files to your Nagios plugin directory.
 
