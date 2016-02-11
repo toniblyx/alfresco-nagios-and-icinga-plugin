@@ -2,11 +2,7 @@ Nagios or Icinga Plugin for Alfresco - Toni de la Fuente (blyx.com)
 
 Original and based on Nagios JMX Plugin of Felix Roethenbacher (Copyright 2009)
 
-*******************************************************************************
-*                                                                             *
-* NAGIOS PLUGIN FOR ALFRESCO                                                  *
-*                                                                             *
-*******************************************************************************
+* NAGIOS PLUGIN FOR ALFRESCO *
 
 31/Jan/2010
 Version 1.0 - first release (Suport Alfresco Enterprise 3.2 and above)
